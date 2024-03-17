@@ -2,4 +2,5 @@
 <resources>
     <string name="textView">BIENVENIDO A MI APLICACION</string>
     <string name="app_name">App</string>
+    <string name="ingreso_btn">"Ingreso "</string>
 </resources>

@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name" translatable="false">App</string>
     <string name="textView">"WELCOME TO MY APP "</string>
+    <string name="ingreso_btn">Access</string>
 </resources>
