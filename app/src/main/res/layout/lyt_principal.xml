@@ -5,7 +5,7 @@
     android:id="@+id/Registro"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/radiant_gradient"
+    android:background="@drawable/large_triangles"
     android:orientation="vertical">
 
     <TextView
@@ -16,7 +16,7 @@
         android:fontFamily="@font/alfa_slab_one"
         android:text="@string/textView2"
         android:textAlignment="center"
-        android:textColor="@color/black"
+        android:textColor="@color/material_dynamic_neutral_variant80"
         android:textSize="60sp" />
 
     <EditText
@@ -27,8 +27,8 @@
         android:ems="10"
         android:hint="@string/editTextTextEmailAddress"
         android:inputType="textEmailAddress"
-        android:textColor="@color/black"
-        android:textColorHint="@color/black" />
+        android:textColor="@color/material_dynamic_neutral_variant80"
+        android:textColorHint="@color/material_dynamic_neutral_variant80" />
 
     <EditText
         android:id="@+id/editTextTextPassword"
@@ -38,30 +38,30 @@
         android:ems="10"
         android:hint="@string/editTextTextPassword"
         android:inputType="textPassword"
-        android:shadowColor="@color/black"
-        android:textColor="@color/black"
-        android:textColorHint="@color/black" />
+        android:shadowColor="@color/material_dynamic_neutral_variant80"
+        android:textColor="@color/material_dynamic_neutral_variant80"
+        android:textColorHint="@color/material_dynamic_neutral_variant80" />
 
     <Button
         android:id="@+id/Login_btn"
         android:layout_width="352dp"
         android:layout_height="100dp"
         android:layout_gravity="center_horizontal"
-        android:backgroundTint="@color/material_dynamic_neutral10"
+        android:backgroundTint="?android:attr/detailsElementBackground"
         android:shadowColor="@color/material_dynamic_neutral30"
         android:text="@string/Login_btn"
-        android:textColor="@color/white"
-        android:textColorHighlight="@color/white"
-        android:textColorLink="@color/white" />
+        android:textColor="@color/material_dynamic_neutral10"
+        android:textColorHighlight="@color/material_dynamic_neutral_variant80"
+        android:textColorLink="@color/material_dynamic_neutral_variant80" />
 
     <Button
         android:id="@+id/Sing_btn"
         android:layout_width="352dp"
         android:layout_height="100dp"
         android:layout_gravity="center_horizontal"
-        android:backgroundTint="@color/material_dynamic_neutral10"
+        android:backgroundTint="?android:attr/detailsElementBackground"
         android:text="@string/Sing_btn"
-        android:textColor="@color/white"
+        android:textColor="@color/material_dynamic_neutral10"
         android:textColorHighlight="@color/white"
         android:textColorLink="@color/white" />
 
@@ -73,7 +73,15 @@
         android:gravity="center"
         android:text="@string/textView4"
         android:textAlignment="center"
-        android:textColor="@color/black"
+        android:textColor="@color/material_dynamic_neutral_variant80"
         android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="29dp"
+        android:text="© 2024 JuanFelipe017™All Rights Reserved."
+        android:textAlignment="center"
+        android:textColor="@color/material_dynamic_neutral_variant80" />
 
 </LinearLayout>

@@ -1,4 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="textView">"WELCOME TO MY APP "</string>
+    <string name="app_name">App</string>
+    <string name="textView">WELCOME TO LUNA AZUL RESORT</string>
+    <string name="ingreso_btn">Access</string>
+    <string name="editTextTextPassword">Password\n</string>
+    <string name="editTextTextEmailAddress">Email\n</string>
+    <string name="Login_btn">Login in\n</string>
+    <string name="Sing_btn">Sing in \n</string>
+    <string name="textView4">Did you forget the password?\n</string>
+    <string name="textView2">LOGIN\n</string>
+    <string name="radio_masculino">Male</string>
+    <string name="radio_femenino">Female</string>
+    <string name="Confirmacion_btn">Confirmar\n</string>
 </resources>

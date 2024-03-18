@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="textView">BIENVENIDO A MI APLICACION</string>
-    <string name="app_name">App</string>
+    <string name="textView">"BIENVENIDO A LUNA AZUL RESORT"</string>
+    <string name="app_name">Aplicacion</string>
     <string name="ingreso_btn">"Ingreso "</string>
     <string name="editTextTextPassword">Contraseña</string>
     <string name="Login_btn">"Ingreso "</string>
@@ -9,4 +9,7 @@
     <string name="Sing_btn">Registrarse</string>
     <string name="textView4">¿Olvido su contraseña?</string>
     <string name="textView2">INICIO</string>
+    <string name="radio_masculino">Masculino</string>
+    <string name="radio_femenino">Femenino</string>
+    <string name="Confirmacion_btn">Enviar</string>
 </resources>

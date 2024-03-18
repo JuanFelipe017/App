@@ -5,19 +5,19 @@
     android:id="@+id/Inicio"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/radiant_gradient"
+    android:background="@drawable/large_triangles"
     tools:context=".Inicio">
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="149dp"
         android:layout_gravity="center|top"
         android:fontFamily="sans-serif-condensed"
         android:text="@string/textView"
         android:textAlignment="center"
-        android:textColor="#000000"
-        android:textSize="40dp" />
+        android:textColor="@color/material_dynamic_neutral_variant80"
+        android:textSize="51dp" />
 
     <Button
         android:id="@+id/ingreso_btn"
@@ -25,16 +25,16 @@
         android:layout_height="60dp"
         android:layout_gravity="center|bottom"
         android:layout_marginBottom="56dp"
-        android:backgroundTint="@color/material_dynamic_neutral_variant20"
+        android:backgroundTint="?android:attr/detailsElementBackground"
         android:onClick="lyt_registro"
         android:text="Ingreso"
-        android:textColor="#F1ECEC" />
+        android:textColor="@color/material_dynamic_neutral10" />
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_width="304dp"
+        android:layout_height="424dp"
         android:layout_gravity="center"
-        android:src="@drawable/evil_svg" />
+        app:srcCompat="@drawable/_526528266" />
 
 </FrameLayout>
