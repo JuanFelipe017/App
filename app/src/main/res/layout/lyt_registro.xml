@@ -2,21 +2,102 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/Registro"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/repeating_triangles">
+    android:background="@drawable/radiant_gradient"
+    tools:context=".Registro">
 
     <TextView
-        android:id="@+id/textView2"
-        android:layout_width="176dp"
-        android:layout_height="93dp"
-        android:layout_marginTop="56dp"
-        android:fontFamily="serif"
-        android:text="PAGINA REGISTRO"
-        android:textSize="34sp"
+        android:id="@+id/textView8"
+        android:layout_width="307dp"
+        android:layout_height="110dp"
+        android:fontFamily="@font/alfa_slab_one_1"
+        android:text="Registro de datos"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="40sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        tools:layout_editor_absoluteY="20dp"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/editTextText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Name"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.487"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="173dp"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/editTextText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Last Name"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.487"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="247dp"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:textColorHint="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="322dp" />
+
+
+    <RadioGroup
+        android:id="@+id/opciones_sexo"
+        android:layout_width="203dp"
+        android:layout_height="50dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="397dp"
+        tools:ignore="MissingConstraints">
+
+        <RadioButton
+            android:id="@+id/radio_femenino"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="Femenino" />
+
+        <RadioButton
+            android:id="@+id/radio_masculino"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:checked="true"
+            android:text="Masculino" />
+    </RadioGroup>
+
+    <Spinner
+        android:id="@+id/Nacionalidad"
+        android:layout_width="174dp"
+        android:layout_height="63dp"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="475dp" />
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
