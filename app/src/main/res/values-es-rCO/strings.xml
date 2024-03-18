@@ -3,4 +3,10 @@
     <string name="textView">BIENVENIDO A MI APLICACION</string>
     <string name="app_name">App</string>
     <string name="ingreso_btn">"Ingreso "</string>
+    <string name="editTextTextPassword">Contraseña</string>
+    <string name="Login_btn">"Ingreso "</string>
+    <string name="editTextTextEmailAddress">Correo</string>
+    <string name="Sing_btn">Registrarse</string>
+    <string name="textView4">¿Olvido su contraseña?</string>
+    <string name="textView2">INICIO</string>
 </resources>

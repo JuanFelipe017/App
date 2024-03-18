@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/Registro"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/radiant_gradient"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="143dp"
+        android:layout_marginTop="56dp"
+        android:fontFamily="@font/alfa_slab_one"
+        android:text="@string/textView2"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="60sp" />
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress"
+        android:layout_width="352dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center_horizontal"
+        android:ems="10"
+        android:hint="@string/editTextTextEmailAddress"
+        android:inputType="textEmailAddress"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black" />
+
+    <EditText
+        android:id="@+id/editTextTextPassword"
+        android:layout_width="352dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center_horizontal"
+        android:ems="10"
+        android:hint="@string/editTextTextPassword"
+        android:inputType="textPassword"
+        android:shadowColor="@color/black"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black" />
+
+    <Button
+        android:id="@+id/Login_btn"
+        android:layout_width="352dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center_horizontal"
+        android:backgroundTint="@color/material_dynamic_neutral10"
+        android:shadowColor="@color/material_dynamic_neutral30"
+        android:text="@string/Login_btn"
+        android:textColor="@color/white"
+        android:textColorHighlight="@color/white"
+        android:textColorLink="@color/white" />
+
+    <Button
+        android:id="@+id/Sing_btn"
+        android:layout_width="352dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center_horizontal"
+        android:backgroundTint="@color/material_dynamic_neutral10"
+        android:text="@string/Sing_btn"
+        android:textColor="@color/white"
+        android:textColorHighlight="@color/white"
+        android:textColorLink="@color/white" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="352dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:text="@string/textView4"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="24sp" />
+
+</LinearLayout>
