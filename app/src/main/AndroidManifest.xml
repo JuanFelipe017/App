@@ -13,6 +13,11 @@
         android:theme="@style/Theme.App"
         tools:targetApi="31">
         <activity
+            android:name=".Precio"
+            android:exported="false"
+            android:label="@string/title_activity_precio"
+            android:theme="@style/Theme.App" />
+        <activity
             android:name=".Registro"
             android:exported="false" />
         <activity

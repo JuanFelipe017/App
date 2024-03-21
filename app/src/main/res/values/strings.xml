@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name" >App</string>
+    <string name="app_name">App</string>
     <string name="textView">WELCOME TO LUNA AZUL RESORT</string>
     <string name="ingreso_btn">Access</string>
     <string name="editTextTextPassword">Password\n</string>
@@ -10,5 +10,39 @@
     <string name="textView2">LOGIN\n</string>
     <string name="radio_masculino">Male</string>
     <string name="radio_femenino">Female</string>
-    <string name="Confirmacion_btn">Confirmar\n</string>
+    <string name="Confirmacion_btn">Confirm\n</string>
+    <string name="editTextText">Name\n</string>
+    <string name="editTextText2">Last Name</string>
+    <string name="textView8">Data register</string>
+    <string name="facturatext">Price list</string>
+    <string name="texto">Select the option you want</string>
+    <string name="title_activity_precio">Price</string>
+    <string name="textView3">Welcome dear user</string>
+    <string name="txt_detalles">Details\n</string>
+    <string name="textView10">Data register</string>
+    <string name="hab_pq">Room (Small)</string>
+    <string name="hab_med">Room (Medium)</string>
+    <string name="hab_grande">Room (Big)</string>
+    <string name="inp_phone">"Phone "</string>
+    <string name="inp_days">Day of stay</string>
+    <string name="inp_kicks">Number of children</string>
+    <string name="botonSeleccionarFecha">"Select date "</string>
+    <string name="textViewFechaSeleccionada">Selected date</string>
+    <string name="btnreservacion">Booking</string>
+    <string name="txt_act">Recreational activities</string>
+    <string name="txt_comida">Food</string>
+    <string name="txt_exc">Excursions</string>
+    <string name="txt_parq">Parking</string>
+    <string name="txt_vip">VIP service</string>
+    <string name="txt_ad">Additional services</string>
+    <string name="txt_1">Varies depending on the service</string>
+    <string name="txt_2">$10 per day</string>
+    <string name="txt_3">From $50 per person</string>
+    <string name="txt_4">Varies depending on the menu</string>
+    <string name="txt_5">"$20 per person "</string>
+    <string name="txt_6">$400 (per night)</string>
+    <string name="txt_7">$250(per night))</string>
+    <string name="txt_8">$150(per night)</string>
+    <string name="button_menu">Back to menu</string>
+    <string name="button_pagar">Pay</string>
 </resources>

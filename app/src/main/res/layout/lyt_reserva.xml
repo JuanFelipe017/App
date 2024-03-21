@@ -1,23 +1,165 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/radiant_gradient"
+    android:background="@drawable/large_triangles"
     tools:context=".Reserva">
 
     <TextView
         android:id="@+id/textView3"
-        android:layout_width="293dp"
-        android:layout_height="108dp"
-        android:layout_marginTop="28dp"
-        android:fontFamily="sans-serif-condensed"
-        android:text="Bienvenido querido usuario/a"
+        android:layout_width="347dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="32dp"
+        android:fontFamily="@font/alfa_slab_one"
+        android:text="@string/textView3"
         android:textAlignment="center"
-        android:textColor="@color/black"
-        android:textSize="34sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-</androidx.constraintlayout.widget.ConstraintLayout>
+        android:textColor="@color/material_dynamic_neutral_variant80"
+        android:textSize="34sp" />
+
+    <EditText
+        android:id="@+id/inp_name"
+        android:layout_width="185dp"
+        android:layout_height="53dp"
+        android:layout_below="@+id/textView3"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="27dp"
+        android:layout_marginEnd="207dp"
+        android:ems="10"
+        android:hint="@string/editTextText"
+        android:inputType="text"
+        android:textColorHint="#7A7272"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/inp_phone"
+        android:layout_width="166dp"
+        android:layout_height="53dp"
+        android:layout_below="@+id/textView3"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="204dp"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="27dp"
+        android:layout_marginEnd="25dp"
+        android:layout_toRightOf="@id/inp_name"
+        android:ems="10"
+        android:hint="@string/inp_phone"
+        android:inputType="number"
+        android:textColorHint="#7A7272"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/inp_days"
+        android:layout_width="156dp"
+        android:layout_height="53dp"
+        android:layout_below="@+id/inp_name"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="106dp"
+        android:ems="10"
+        android:hint="@string/inp_days"
+        android:inputType="number"
+        android:textColorHint="#7A7272"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/inp_kicks"
+        android:layout_width="156dp"
+        android:layout_height="53dp"
+        android:layout_below="@+id/inp_phone"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="106dp"
+        android:layout_marginRight="20dp"
+        android:ems="10"
+        android:hint="@string/inp_kicks"
+        android:inputType="number"
+        android:textColorHint="#7A7272"
+        android:textSize="14sp" />
+
+
+    <EditText
+        android:id="@+id/inp_email"
+        android:layout_width="wrap_content"
+        android:layout_height="54dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="221dp"
+        android:layout_marginEnd="53dp"
+        android:ems="10"
+        android:hint="@string/editTextTextEmailAddress"
+        android:inputType="number"
+        android:textColorHint="#7A7272"
+        android:textSize="14sp" />
+
+    <Spinner
+        android:id="@+id/spinner_cargo"
+        android:layout_width="172dp"
+        android:layout_height="52dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="49dp"
+        android:layout_marginEnd="52dp"
+        android:layout_marginBottom="409dp"
+        android:entries="@array/cuartos"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/btnreservacion"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/spinner_cargo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="-120dp"
+        android:backgroundTint="@color/material_dynamic_tertiary100"
+        android:text="@string/btnreservacion"
+        android:textColor="@color/material_dynamic_neutral10"
+        android:textSize="20dp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_below="@+id/inp_phone"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="35dp"
+        android:layout_marginTop="290dp"
+        app:srcCompat="@drawable/reservation_system_svgrepo_com" />
+
+
+    <Button
+        android:id="@+id/botonSeleccionarFecha"
+        android:layout_width="156dp"
+        android:layout_height="77dp"
+        android:layout_below="@+id/inp_days"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="110dp"
+        android:backgroundTint="@color/material_dynamic_tertiary100"
+        android:text="@string/botonSeleccionarFecha"
+        android:textColor="@color/material_dynamic_neutral10"/>
+
+    <TextView
+        android:id="@+id/textViewFechaSeleccionada"
+        android:layout_width="168dp"
+        android:layout_height="102dp"
+        android:layout_below="@+id/botonSeleccionarFecha"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="23dp"
+        android:layout_marginTop="22dp"
+        android:text="@string/textViewFechaSeleccionada"
+        android:textAlignment="center"
+        android:textColor="@color/material_dynamic_neutral_variant80"
+        android:textSize="20sp" />
+</RelativeLayout>

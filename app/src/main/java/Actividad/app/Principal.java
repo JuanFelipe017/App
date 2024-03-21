@@ -6,12 +6,15 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
 
 public class Principal extends AppCompatActivity implements View.OnClickListener{
 
-    Button btnLogin;
+    private Button btnLogin;
+    private Button btnSing;
 
-    Button btnSing;
+    private EditText editTextTextEmailAddress;
+    private EditText editTextTextPassword;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -30,6 +33,7 @@ public class Principal extends AppCompatActivity implements View.OnClickListener
         if(view.getId() == R.id.Login_btn){
             Intent login_btn = new Intent (getApplicationContext(), Reserva.class);
             startActivity(login_btn);
+
         } else if (view.getId() == R.id.Sing_btn){
             Intent sing_btn = new Intent (getApplicationContext(), Registro.class);
             startActivity(sing_btn);

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="cuartos">
+        <item>Seleccione tipo de cuarto</item>
+        <item>Habitacion pequeña (3 personas)</item>
+        <item>Habitacion mediana (5 personas)</item>
+        <item>Habitacion grande (+6 personas)</item>
+    </string-array>
+</resources>

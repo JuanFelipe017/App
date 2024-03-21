@@ -23,11 +23,11 @@
         tools:layout_editor_absoluteY="2dp" />
 
     <TextView
-        android:id="@+id/textView8"
+        android:id="@+id/textView10"
         android:layout_width="307dp"
         android:layout_height="110dp"
         android:fontFamily="@font/alfa_slab_one_1"
-        android:text="Registro de datos"
+        android:text="@string/textView10"
         android:textAlignment="center"
         android:textColor="@color/material_dynamic_neutral_variant80"
         android:textSize="40sp"
@@ -42,26 +42,26 @@
         android:layout_width="238dp"
         android:layout_height="54dp"
         android:ems="10"
+        android:hint="@string/editTextText"
         android:inputType="text"
-        android:text="Name"
         android:textColor="@color/material_dynamic_neutral_variant80"
-        android:textColorHint="@color/black"
+        android:textColorHint="@color/material_dynamic_neutral_variant80"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView8"
-        app:layout_constraintVertical_bias="0.028" />
+        app:layout_constraintTop_toBottomOf="@+id/textView10"
+        app:layout_constraintVertical_bias="0.062" />
 
     <EditText
         android:id="@+id/editTextText2"
         android:layout_width="238dp"
         android:layout_height="61dp"
         android:ems="10"
+        android:hint="@string/editTextText2"
         android:inputType="text"
-        android:text="Last Name"
         android:textColor="@color/material_dynamic_neutral_variant80"
-        android:textColorHint="@color/black"
+        android:textColorHint="@color/material_dynamic_neutral_variant80"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
@@ -83,7 +83,7 @@
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/opciones_sexo"
-        app:layout_constraintVertical_bias="0.04" />
+        app:layout_constraintVertical_bias="0.046" />
 
     <RadioGroup
         android:id="@+id/opciones_sexo"
@@ -123,42 +123,41 @@
     </RadioGroup>
 
     <Spinner
-        android:id="@+id/Nacionalidad"
-        android:layout_width="174dp"
-        android:layout_height="63dp"
+        android:id="@+id/spinnerNacionalidad"
+        android:layout_width="261dp"
+        android:layout_height="57dp"
+        android:entries="@array/nacionalidades"
         android:textAlignment="center"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.75" />
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword2"
+        app:layout_constraintVertical_bias="0.158" />
 
     <EditText
         android:id="@+id/editTextTextPassword2"
         android:layout_width="241dp"
         android:layout_height="68dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="20dp"
         android:ems="10"
         android:hint="@string/editTextTextPassword"
         android:inputType="textPassword"
         android:textColorHint="@color/material_dynamic_neutral_variant80"
-        app:layout_constraintBottom_toTopOf="@+id/Nacionalidad"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintHorizontal_bias="0.488"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextTextEmailAddress2"
-        app:layout_constraintVertical_bias="0.092"
         tools:ignore="MissingConstraints" />
 
     <Button
         android:id="@+id/Confirmacion_btn"
-        android:layout_width="150dp"
-        android:layout_height="70dp"
+        android:layout_width="198dp"
+        android:layout_height="87dp"
+        android:backgroundTint="@color/material_dynamic_tertiary100"
         android:text="@string/Confirmacion_btn"
         android:textAlignment="center"
-        android:textColorHighlight="#F44336"
-        android:textColorLink="#F44336"
+        android:textColor="@color/material_dynamic_neutral10"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
